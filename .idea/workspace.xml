@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f8a9376-2ec9-4c32-b728-f220655720be" name="Default Changelist" comment="add deployment section">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerrun.aws.json" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerrun.aws.json" afterDir="false" />
-    </list>
+    <list default="true" id="0f8a9376-2ec9-4c32-b728-f220655720be" name="Default Changelist" comment="add memory option to Dockerrun.aws.json" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -121,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588410768386</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add memory option to Dockerrun.aws.json">
+      <created>1588411262312</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1588411262312</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -144,7 +148,8 @@
     <MESSAGE value="add travis.yml build" />
     <MESSAGE value="fix typo" />
     <MESSAGE value="add deployment section" />
-    <option name="LAST_COMMIT_MESSAGE" value="add deployment section" />
+    <MESSAGE value="add memory option to Dockerrun.aws.json" />
+    <option name="LAST_COMMIT_MESSAGE" value="add memory option to Dockerrun.aws.json" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1266" y="329" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588163163011">
@@ -155,10 +160,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="170" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1588405512143" />
-    <state x="1104" y="255" key="Vcs.Push.Dialog.v2" timestamp="1588410794027">
+    <state x="1104" y="255" key="Vcs.Push.Dialog.v2" timestamp="1588411265692">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="1104" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1588410794027" />
+    <state x="1104" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1588411265692" />
     <state x="1180" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1588410715355">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
