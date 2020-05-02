@@ -19,8 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f8a9376-2ec9-4c32-b728-f220655720be" name="Default Changelist" comment="add new project">
-      <change beforePath="$PROJECT_DIR$/nginx/Dockerfile.dev" beforeDir="false" afterPath="$PROJECT_DIR$/nginx/Dockerfile.dev" afterDir="false" />
+    <list default="true" id="0f8a9376-2ec9-4c32-b728-f220655720be" name="Default Changelist" comment="fix typo">
+      <change afterPath="$PROJECT_DIR$/Dockerrun.aws.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +31,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1bDCVdSQhr5QFaddy71jucOn6qa" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -40,6 +43,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -98,7 +102,21 @@
       <option name="project" value="LOCAL" />
       <updated>1588165149755</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add travis.yml build">
+      <created>1588237095072</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1588237095072</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fix typo">
+      <created>1588237340753</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1588237340753</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -114,19 +132,30 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add new project" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new project" />
+    <MESSAGE value="add travis.yml build" />
+    <MESSAGE value="fix typo" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix typo" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1266" y="329" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588163163011">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="1266" y="329" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1588163163011" />
-    <state x="1180" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1588161177694">
+    <state x="461" y="170" key="SettingsEditor" timestamp="1588405512143">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="1180" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1588161177694" />
+    <state x="461" y="170" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1588405512143" />
+    <state x="1104" y="255" key="Vcs.Push.Dialog.v2" timestamp="1588237345608">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1104" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1588237345608" />
+    <state x="1180" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1588410715355">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1180" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1588410715355" />
   </component>
 </project>
