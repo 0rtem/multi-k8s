@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f8a9376-2ec9-4c32-b728-f220655720be" name="Default Changelist" comment="change app title" />
+    <list default="true" id="0f8a9376-2ec9-4c32-b728-f220655720be" name="Default Changelist" comment="add &quot;&quot; to the values" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -132,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588411710383</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add &quot;&quot; to the values">
+      <created>1588412106403</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1588412106403</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -157,7 +164,8 @@
     <MESSAGE value="add deployment section" />
     <MESSAGE value="add memory option to Dockerrun.aws.json" />
     <MESSAGE value="change app title" />
-    <option name="LAST_COMMIT_MESSAGE" value="change app title" />
+    <MESSAGE value="add &quot;&quot; to the values" />
+    <option name="LAST_COMMIT_MESSAGE" value="add &quot;&quot; to the values" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1266" y="329" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588163163011">
@@ -168,10 +176,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="170" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1588405512143" />
-    <state x="1104" y="255" key="Vcs.Push.Dialog.v2" timestamp="1588411714599">
+    <state x="1104" y="255" key="Vcs.Push.Dialog.v2" timestamp="1588412131071">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="1104" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1588411714599" />
+    <state x="1104" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1588412131071" />
     <state x="1180" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1588410715355">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
