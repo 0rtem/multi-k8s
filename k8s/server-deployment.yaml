@@ -31,7 +31,7 @@ spec:
             - name: PGDATABASE
               value: postgres
               # generate password
-              # kubectl create secret generic pgpassword --from-literal PGPASSWORD=<password>!
+              # kubectl create secret generic pgpassword --from-literal POSTGRES_PASSWORD=<password>!
             - name: POSTGRES_PASSWORD
               valueFrom:
                 secretKeyRef:
