@@ -16,6 +16,6 @@ docker push 0rtem/multi-worker:$SHA
 kubectl apply -f k8s
 
 #update images
-kubectl set image deploymets/server-deployment server=stephengrider/multi-server:844b0adf6542a7dae725faa9839bb3890e6f233a
-kubectl set image deploymets/client-deployment client=stephengrider/multi-client:844b0adf6542a7dae725faa9839bb3890e6f233a
+kubectl set image deploymet/server-deployment server=stephengrider/multi-server:844b0adf6542a7dae725faa9839bb3890e6f233a
+kubectl set image deploymet/client-deployment client=stephengrider/multi-client:844b0adf6542a7dae725faa9839bb3890e6f233a
 kubectl set image deployment/worker-deployment client=stephengrider/multi-worker:844b0adf6542a7dae725faa9839bb3890e6f233a
