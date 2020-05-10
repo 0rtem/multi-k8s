@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,8 +23,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f8a9376-2ec9-4c32-b728-f220655720be" name="Default Changelist" comment="remove them">
+      <change afterPath="$PROJECT_DIR$/k8s/client-cluster-ip-service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/client-deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/database-persistent-volume-claim.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/ingress-service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/postgres-cluster-ip-service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/postgres-deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/redis-cluster-ip-service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/redis-deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/server-cluster-ip-service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/server-deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/worker-deployment.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerrun.aws.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx/Dockerfile.dev" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx/default.conf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +60,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="run.code.analysis.last.selected.profile" value="aDefault" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -149,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588414683140</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="remove them">
+      <created>1588419979616</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1588419979616</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -179,18 +206,34 @@
     <option name="LAST_COMMIT_MESSAGE" value="remove them" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="828" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589050321416">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="828" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1589050321416" />
     <state x="1266" y="329" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588163163011">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="1266" y="329" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1588163163011" />
-    <state x="461" y="170" key="SettingsEditor" timestamp="1588405512143">
+    <state x="1169" y="383" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1589010074210">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="461" y="170" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1588405512143" />
-    <state x="1104" y="255" key="Vcs.Push.Dialog.v2" timestamp="1588414714241">
+    <state x="1169" y="383" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1050@0.0.1920.1050" timestamp="1589010074210" />
+    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1588426161327">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="1104" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1588414714241" />
+    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1588426161327" />
+    <state x="194" y="197" key="SettingsEditor" timestamp="1589009594727">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="194" y="197" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1589009594727" />
+    <state x="1104" y="255" key="Vcs.Push.Dialog.v2" timestamp="1588419984347">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1104" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1588419984347" />
+    <state x="1078" y="247" key="run.anything.popup" timestamp="1589042607342">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1078" y="247" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1589042607342" />
     <state x="1180" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1588410715355">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
